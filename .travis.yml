@@ -1,0 +1,10 @@
+language: csharp
+addons:
+  apt:
+    packages:
+    - gendarme
+script:
+- "./build.sh"
+env:
+  global:
+    secure: TWcejCr2cEZ5z5+i8MeMf0hwhJ1PHqQ38Bt+gK57/gYCQByAqRXRjcsDE9bbQ0zdsks0AKBYHxUBOXIw7qkijWg7svWx8EiG40mPo+N6t1qBhaojfxS2bgX6lVdxy/xGxX9Oz4P3/6pw1xQ9r9GQ67wsiHV8uf7hIsNPaTvSditjh4MnTQpNjmk5NUtqF/F/LiYyNVfeOelIXIQEbUA9DsUS/uuVtIyTNj+1uPMFt4ootIRS1wo5C/dKWZJcNHCfZO8vQsbmMehkKiCl3a03tQJvhSf4Kz27p2CYUnj5FTxwKSIJTYEBMabAtWxVX+hQKQOo96n4phvpvD7shJel5JmGOzOgugKYdI2Ms2AHclKoF1ZcSn5BZRO4wIMfWD6nwbp0+elFydjppLA5xGLEnrqbqVY60bZoJzx+S6OYS0j6AHK8d6S+U2CC6AY5SbCpN/fE/BRe3jF6mMukrdRBUHHpGjarUh7N7LlyA62KE756EA73R/NJJ23SFao+RVcA5ebkJVT/SYkTtxSPjvrwI5swR9q3aVhVDdCpAg2Y5k6r50H1psWY1VyWlif91AHu8w0JChCuyoir4ShRYEQ60QHbwF2Gf9WwL4UCVa/67wOzJpvNS5B9zBnD8bVJJlPTHUIG4xwOIAo/kVjJo6Xm+mmMENH12hFKUwPIcGRjI2k=

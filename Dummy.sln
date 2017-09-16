@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoadArchitect", "RoadArchitect\RoadArchitect.csproj", "{F2999E6A-BC6A-4BA8-93F0-8E94C5E47803}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AnyCPU = Debug|AnyCPU
+		Release|AnyCPU = Release|AnyCPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2999E6A-BC6A-4BA8-93F0-8E94C5E47803}.Debug|AnyCPU.ActiveCfg = Debug|AnyCPU
+		{F2999E6A-BC6A-4BA8-93F0-8E94C5E47803}.Debug|AnyCPU.Build.0 = Debug|AnyCPU
+		{F2999E6A-BC6A-4BA8-93F0-8E94C5E47803}.Release|AnyCPU.ActiveCfg = Release|AnyCPU
+		{F2999E6A-BC6A-4BA8-93F0-8E94C5E47803}.Release|AnyCPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+EndGlobal
