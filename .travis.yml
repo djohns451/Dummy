@@ -1,8 +1,4 @@
 language: csharp
-addons:
-  apt:
-    packages:
-    - gendarme
 script:
 - "./build.sh"
 env:
