@@ -3,6 +3,7 @@ addons:
     packages:
     - mono-complete
     - gendarme
+    - mono-reference-assemblies-2.0
 script:
 - "./build.sh"
 env:

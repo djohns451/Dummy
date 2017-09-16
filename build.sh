@@ -1,4 +1,4 @@
-git clone https://github.com/MicroGSD/RoadArchitect
+git clone https://github.com/djohns451/RoadArchitect
 mv RA/* RoadArchitect/
 xbuild /p:Configuration=Debug
 #mkdir gendarme && cd gendarme
@@ -6,7 +6,7 @@ xbuild /p:Configuration=Debug
 #unzip gendarme-2.10-bin.zip && rm gendarme-2.10-bin.zip && cd ..
 #gendarme/gendarme.exe --quiet --html report.html RoadArchitect/bin/Debug/RoadArchitect.dll
 cd RoadArchitect
-gendarme --quiet --html ../report.html RoadArchitect/bin/Debug/RoadArchitect.dll
+gendarme --quiet --html ../report.html bin/Debug/RoadArchitect.dll
 git checkout gh-pages
 mv ../report.html .
 git add report.html
