@@ -1,9 +1,8 @@
+language: csharp
 addons:
   apt:
     packages:
-    - mono-complete
     - gendarme
-    - libmono2.0-cil
 script:
 - "./build.sh"
 env:
