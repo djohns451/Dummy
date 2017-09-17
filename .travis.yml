@@ -3,7 +3,6 @@ addons:
     sources:
     - sourceline: 'deb http://download.mono-project.com/repo/debian wheezy main'
     packages:
-    - mono-complete
     - gendarme
 script:
 - "./build.sh"
