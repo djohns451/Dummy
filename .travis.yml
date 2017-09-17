@@ -1,6 +1,8 @@
 language: csharp
 addons:
   apt:
+    sources:
+    - sourceline: 'deb http://download.mono-project.com/repo/debian wheezy main'
     packages:
     - gendarme
 script:
